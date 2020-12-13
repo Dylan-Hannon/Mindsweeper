@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.mindsweeper.CustomView
+        android:layout_width="410dp"
+        android:layout_height="427dp"
+        android:background="#ccc"
+        android:paddingLeft="20dp"
+        android:paddingBottom="40dp"
+        app:cellColor="#33b5e5"
+        app:cellDimension="24sp"
+        app:cellDrawable="@android:drawable/ic_menu_add"
+        app:cellString="HelloWorld"
+        />
+
+</FrameLayout>

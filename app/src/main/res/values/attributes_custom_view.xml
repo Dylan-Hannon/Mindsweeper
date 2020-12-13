@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="cellString" format="string" />
+        <attr name="cellDimension" format="dimension" />
+        <attr name="cellColor" format="color" />
+        <attr name="cellDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>
